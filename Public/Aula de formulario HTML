@@ -1,0 +1,96 @@
+<! DOCTYPE html>
+<html lang="en">
+<cabeça>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ < título>Formulário</título>
+</cabeça>
+<corpo>
+    <p><h2>Formulário de cadastro</h2></p>
+ <form action="" método="post">
+        <va le>
+            <tr>
+ <td><label para="nome">Nome</label></td>
+ <><label para="sobrenome">Sobrenome</label></td>
+            </tr>
+            <tr>
+ <td><input type="text" id="nome" name="nome" placeholder="Nome"></td>
+                <td><input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required="true"></td>
+            </tr>
+            <tr>
+ <td><label para="email">Email</label></td>
+ <td><label para="dataNasc">Data de nascimento</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" id="email" placeholder="Email" required="true"></td>
+ <td><input type="date" name="dataNasc" id="dataNasc"></td>
+            </tr>
+            <tr>
+ <td><label para="endereco">Endereco</label></td>
+ <><label para="estado">Estado</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="endereco" id="endereco" placeholder="Endereco" required="true"></td>
+                <td>
+ <selém nome="estado" id="estado" required="true">
+ <peso valor="">Selecione</opção>
+ <o valor="AC">Acre</opção>
+ <o valor="AL">Alagoas</opção>
+ <peso="AP">Amapá</opção>
+ <o valor="AM">Amazonas</opção>
+ <o valor="BA">Bahia</opção>
+ <o valor="CE">Ceará</opção>
+ <o valor="DF">Distrito Federal</opção>
+ <o valor="ES">Espirito Santo</opção>
+ <empto="GO">Goiás</opção>
+ <o valor="MA">Maranhão</opção>
+ <em valor deopção="MS">Mato Grosso do Sul</opção>
+ <do valor deopção="MT">Mato Grosso</opção>
+ <o valor="MG">Minas Gerais</opção>
+ <predo valor deopção="PA">Pará</opção>
+ < valor de opção="PB">Paraíba</opção>
+ < valor de opção="PR">Paraná</opção>
+ <peso="PE">Pernambuco</opção>
+ <peso="PI">Piauí</opção>
+ <o valor="RJ">Rio de Janeiro</opção>
+ <empto="RN">Rio Grande do Norte</opção>
+ <em valor de opção="RS">Rio Grande do Sul</opção>
+ <o valor="RO">Rondônia</opção>
+ <o valor="RR">Roraima</opção>
+ <pato="SC">Santa Catarina</opção>
+ <o valor="SP" >São Paulo</opção>
+ <peso="SE">Sergipe</opção>
+ <o valor deoption="TO">Tocantins</option>
+                    </selecionar>
+                </td>
+            </tr>
+            <tr>
+ <td><label para="cidade"></rótulo>Cidade</td>
+ <td><label para="cep">CEP</rótulo></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="cidade" id="cidade" placeholder="Cidade" required="true"></td>
+                <td><input type="number" name="cep" id="cep" placeholder="CEP" maxlength="8" required="true"></td>
+            </tr>
+            <tr>
+ <td><label para="descricao">Descrição</rótulo></td>
+ <td><label para="profissao">Profissão</rótulo></td>
+            </tr>
+            <tr>
+                <td><textarea name="descricao" id="descricao" cols="19" rows="4" required="true"></textarea></td>
+ <td><input type="text" id="profissao" name="profissao" placeholder="Profissao" required="true"></td>
+            </tr>
+            <tr>
+ <>CPF</td>
+ <>RG</td>
+            </tr>
+                <td><input type="file" name="rg" id="rg"></td>
+                <td><input type="file" name="rg" id="rg"></td>
+            <tr>
+ <td><input type="submit" id="submit" name="submit" value="Enviar"></td>
+            </tr>
+        </va le>
+    </forma>
+</corpo>
+</html> 
